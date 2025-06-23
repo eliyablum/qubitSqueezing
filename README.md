@@ -14,45 +14,18 @@ We present a novel method for generating conditional single‑ and two‑mode sq
 
 ```
 ├── singleModeApproximated.py        # Effective squeezing simulation (Fig. 2a/3)
-├── singleModeDisplacedFrame.py      # Full driven model in the displaced frame simulation
+├── singleModeDisplacedFrame.py      # Full driven model in the displaced frame simulation (Fig. 2 and Fig. 3)
 ├── singleModeModulatedCoupling.py   # Effective modulated coupling simulation (Fig. 2a/3)
 ├── singleModeSqueezing.nb           # Mathematica notebook deriving single-mode Hamiltonian
 ├── twoModeSqueezing.nb              # Mathematica notebook deriving two-mode Hamiltonian
 └── README.md
 ```
 
----
 
-## Quick start
-
-```bash
-# Reproduce Fig. 2 (single‑mode squeezing scan)
-python singleModeApproximated.py
-
-# Full displaced‑frame evolution
-python singleModeDisplacedFrame.py
-
-# Conditional squeezing with explicit sidebands
-python singleModeModulatedCoupling.py
-```
-
-Each script saves plots under `./figures/` and writes HDF5 data so you can regenerate the figures from the paper.
-
----
 
 ## Notebooks
 
 The `.nb` files are Mathematica notebooks that generate the high‑resolution Wigner‑function plots shown in the paper. If you do not have Mathematica you can still open them with *Wolfram Player*.
-
----
-
-## Reproducing key figures
-
-| Paper Figure                                | Script / Notebook             | Command                     |
-| ------------------------------------------- | ----------------------------- | --------------------------- |
-| Fig 2 – Max single‑mode squeezing vs (δΩ,g) | `singleModeApproximated.py`   | *(runs automatically)*      |
-| Fig 3 – Conditional squeezing               | `singleModeDisplacedFrame.py` | *(runs automatically)*      |
-| Fig 4 – Two‑mode squeezed vacuum            | `twoModeSqueezing.nb`         | Open in Mathematica and run |
 
 ---
 
@@ -68,7 +41,6 @@ If you use this code, please cite **the paper**:
   year    = {2025}
 }
 
-```
 
 ---
 
