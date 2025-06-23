@@ -13,11 +13,11 @@ We present a novel method for generating conditional single‑ and two‑mode sq
 ## Repository layout
 
 ```
-├── singleModeApproximated.py        # Effective Hamiltonian simulation (Fig. 2a/3)
-├── singleModeDisplacedFrame.py      # Full driven model in the displaced frame
-├── singleModeModulatedCoupling.py   # Full driven model with explicit sidebands
-├── singleModeSqueezing.nb           # Mathematica notebook reproducing single‑mode results
-├── twoModeSqueezing.nb              # Mathematica notebook reproducing two‑mode results
+├── singleModeApproximated.py        # Effective squeezing simulation (Fig. 2a/3)
+├── singleModeDisplacedFrame.py      # Full driven model in the displaced frame simulation
+├── singleModeModulatedCoupling.py   # Effective modulated coupling simulation (Fig. 2a/3)
+├── singleModeSqueezing.nb           # Mathematica notebook deriving single-mode Hamiltonian
+├── twoModeSqueezing.nb              # Mathematica notebook deriving two-mode Hamiltonian
 └── README.md
 ```
 
